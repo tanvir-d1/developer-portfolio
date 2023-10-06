@@ -133,3 +133,154 @@ header{
     font-weight: 700;
     margin-top: -25px;
 }
+
+/* What I do */
+
+.what-i-do h2{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what-i-do .what-p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 345px;
+}
+.what-boxes{
+    margin: 0 230px;
+    display: flex;
+    justify-content: space-around;
+}
+.what-boxes .box{
+    width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+
+}
+.what-boxes .box img{
+    margin: 30px 30px 30px;
+}
+.what-boxes .box h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: -10px 30px;
+}
+.what-boxes .box p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+/* Summary */
+.summary-main-box{
+    display: flex;
+    margin: 0 230px;
+}
+.summary .s-heading{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+.summary-content{
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    margin-left: 30px;
+}
+.summary-content h2{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.summary-content h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.summary-content h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.summary-content p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-center{
+    text-align: center;
+}
+.btn-center button{
+    color: #fff;
+    padding: 19px 18px;
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 131px;
+}
+
+/* Footer */
+.footer{
+    background: #FFF8F3;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding:  130px 230px;
+}
+.connect h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.connect p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.message-me h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.message-me .in-2{
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    height: 64px;
+    width: 461px;
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+}
+.message-me .message-h{
+    
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    height: 180px;
+    width: 461px;
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+}
+.message-me button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
