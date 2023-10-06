@@ -268,6 +268,7 @@ header{
     display: block;
     margin-bottom: 24px;
     border: 0;
+    padding: 20px;
 }
 .message-me .message-h{
     
@@ -278,6 +279,7 @@ header{
     display: block;
     margin-bottom: 24px;
     border: 0;
+    padding: 20px;
 }
 .message-me button{
     color: #FFF;
